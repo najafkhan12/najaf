@@ -1,0 +1,92 @@
+/* CSS code */
+body {
+    font-family: 'Roboto', sans-serif; /* Set the font family for the entire page to Roboto */
+    font-size: 21px; /* Set font size for the body */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+    display: grid;
+}
+
+header {
+    background-color:  #252525; /* Set background color for header */
+    padding: 100px 0; /* Add space on top and bottom */
+    color:  #fff;
+    margin-top: -120px;
+}
+
+section.about-me {
+   /* Set background color for about-me section */
+   background-color: - #D7D7D7 ; 
+    /* Add space on top and bottom */
+    padding: 100px 0;
+}
+.Button1{
+    color:  #252525;
+    background-color:  #99D930;
+    
+}
+.Button1:hover{
+    color:  #fff;
+    background-color: #252525;
+}
+section.articles {
+    background-color:  #252525; /* Set background color for articles section */
+    padding: 100px 0; /*Add space on top and bottom */
+    color:  #fff;
+}
+.Button2{
+    color:  #252525;
+    background-color: #99D930;
+}
+.Button2:hover{
+    color: #fff ;
+    background-color: #252525;
+}
+
+.container {
+    width: 570px; /*  width for the container */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Reset text alignment within the container */
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 60px; 
+    display: inline-block; 
+    border-top: 1px solid #C4C4C4; 
+    border-bottom: 1px solid #C4C4C4; 
+    padding: 10px 0; 
+}
+h1
+{
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+h1 span{
+    color: #99d930;
+    font-size: 80px;
+    font-weight: 900;
+}
+h2 span {
+    color: #99d930;
+    display: block; 
+    font-weight: 900; 
+}
+
+a {
+    color: #99D930;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #131313;
+}
+
+p small {
+    font-size: 16px; 
+}
+img{
+    border-radius: 50%;
+}
